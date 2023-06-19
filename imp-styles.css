@@ -1,0 +1,14 @@
+.pictures{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style: none;
+}
+
+ article img {
+  max-width: 25rem;
+  max-height: 18rem;
+  justify-self: center;
+  margin: 0.5rem;
+  box-shadow: gray 1px 1px 1px;
+}
