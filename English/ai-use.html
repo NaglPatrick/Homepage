@@ -28,7 +28,7 @@
 <article>
     <h1>Behind the scenes</h1>
     <p>this will show which ai-tools and the prompts I used:</p>
-    <h4>Chat-GPD</h4>
+    <h3>Chat-GPD</h3>
     <p class="plain-text">can you generate me different keywords for this abstract?
         Abstract: Real-time databases deal with time-constrained data and time-constrained transactions. The design of
         this kind of databases requires the introduction of new concepts to support both data structures and the dynamic
@@ -45,12 +45,160 @@
         lets assume this is my paper ;)</p>
     <p class="plain-text">thanks :)
         now please the same for ticktock</p>
+    <p class="plain-text">
+        can you write me some content for a ticktock video promoting this paper? lets assume it is my paper
+    </p>
+    <p class="plain-text">add output from NotebookML + "can you structure the events chronologically"</p>
+    <p class="plain-text">Create a suitable tweet to announce your paper to the world</p>
     <p class="plain-text"></p>
     <p class="plain-text"></p>
     <p class="plain-text"></p>
+
+    <h3>NotebookLM</h3>
+    <p class="plain-text">upload paper</p>
+    <p class="plain-text">ask: Create a timeline of all major stages described in the paper, from problem introduction to implementation and conclusion.</p>
     <p class="plain-text"></p>
-    <p class="plain-text"></p>
-    <p class="plain-text"></p>
+
+    <h3>Napkin AI</h3>
+    <p class="plain-text">Step 1 – Identified real-time database requirements and UML limitations</p>
+    <p class="plain-text">Step 2 – Reviewed existing UML profiles and found gaps for real-time use</p>
+    <p class="plain-text">Step 3 – Developed real-time object model with sensor/derived attributes</p>
+    <p class="plain-text">Step 4 – Created UML-RTDB profile with custom stereotypes and types</p>
+    <p class="plain-text">Step 5 – Mapped UML models to object-relational schema using UDTs</p>
+    <p class="plain-text">Step 6 – Implemented framework in Fujaba CASE Tool</p>
+    <p class="plain-text">Step 7 – Demonstrated with air traffic control case study</p>
+    <p class="plain-text">Step 8 – Published results and outlined future research directions</p>
+    <h4>create visuals from following text passages</h4>
+    <p class="plain-text">5. From an UML-RTDB diagram to an Object Relationship schema (entire chapter)</p>
+    <p class="plain-text">Query 3 Creation of an UDT for aircraft class
+
+        SQL create type Aircraft as object
+
+        2. (Identifier varchar2(15),
+
+        3. Destination varchar2(15)
+
+        4. Direction RealTimeSensor,
+
+        5. Location RealTimeSensor,
+
+        6. Path RealTime,
+
+        7. Lane RealTime)
+
+        8. /</p>
+
+    <h3>.invideo</h3>
+    <p class="plain-text">allowing watermarks, video-quality low, 740 resolution</p>
+    <h4>ticktock</h4>
+    <p class="plain-text">create a ticktokc video for paper promotion: script: 0–5 sec]
+        🎥 Visual: You at desk, maybe with a UML diagram on screen
+        🗣️ Voice/Captions:
+
+        "Most databases aren’t built for real-time decisions. That’s a problem—especially in air traffic or finance."
+
+        📝 Text Overlay: Real-time problems need real-time data.
+
+        [6–12 sec]
+        🎥 Visual: Show diagram from your paper or a whiteboard
+        🗣️ Voice/Captions:
+
+        "In my new paper, I built a framework to model real-time databases—where data has deadlines."
+
+        📝 Overlay: New framework: UML + timing + automation
+
+        [13–20 sec]
+        🎥 Visual: Highlight stereotypes like "Sensor" "Periodic"
+            🗣️ Voice/Captions:
+
+            "We added new UML stereotypes to handle sensor data, updates, and delays—all things standard UML ignores."
+
+            📝 Overlay: "Sensor" 🔁 "Periodic" ⏱️ "RealTimeClass"
+
+                [21–30 sec]
+                🎥 Visual: Clip of Fujaba tool, or animated SQL/Java code generation
+                🗣️ Voice/Captions:
+
+                "Then we tested it on an air traffic control system—and even generated Java and SQL code from the model."
+
+                📝 Overlay: From diagram → working code ⚙️
+
+                [31–38 sec]
+                🎥 Visual: You speaking again, holding a printed copy or pointing to screen
+                🗣️ Voice/Captions:
+
+                "If you work in databases, systems, or embedded apps, this changes everything."
+
+                📝 Overlay: Published on arXiv + ResearchGate
+                📎 Link in bio
+
+                [39–45 sec]
+                🎥 Visual: Zoom out to paper title or call to action
+                🗣️ Voice/Captions:
+
+                "Check it out—and let me know what you'd build with it."
+
+                📝 Overlay: 🔁 Save | 💬 Comment | 📤 Share
+                🎧 Audio Recommendation
+
+                Use a tech-focused instrumental or a trending upbeat lo-fi track (search for “research background” or “AI vibes” in TikTok’s music library).</p>
+    <p class="plain-text"> make it free</p>
+    <h4>Podcast</h4>
+    <p class="plain-text">now a podcast about the paper: 🎙️ Podcast Episode Outline
+
+        🎧 Title:
+        “Modeling What Can’t Wait: Real-Time Databases and Dynamic Systems”
+
+        🎙️ Host/Intro Line (Optional):
+        "Welcome to [Your Podcast or Lab Name], where we explore the tech shaping our future. Today’s topic: how we manage data when every millisecond counts."
+        🧠 Full Script
+
+        🔹 Intro [~30 seconds]
+
+        Hi, I’m [Your Name], and today I’m excited to share highlights from my paper, A Framework to Model Real-Time Databases.
+        This work is all about real-time data management—the kind that powers air traffic control, financial trading, and even autonomous vehicles.
+
+        When data goes stale, lives or money can be at risk. So how do we model databases that keep up with time-sensitive applications?
+
+        🔹 The Problem [~1 minute]
+
+        Traditional databases are great at storing structured data, but not so great at handling dynamic database behavior.
+        In real-time systems, data must be accurate and timely—meaning it needs to reflect the current state of the world now, not a few seconds ago.
+
+        Unfortunately, standard modeling tools like UML don’t account for things like data aging, sensor updates, or method deadlines.
+        That’s where my framework comes in.
+
+        🔹 The Framework [~2 minutes]
+
+        I developed a UML-based extension called UML-RTDB to model real-time systems.
+        It introduces new concepts—like "Sensor" and "Periodic" stereotypes—to model the flow of time-sensitive data.
+
+            We designed custom data types like RTInteger and RTReal, which track not just values, but when they were last updated.
+            And we modeled methods by how they behave in time: periodic (for regular updates), sporadic (for computations), and aperiodic (for on-demand operations).
+
+            In other words, we made the modeling tools smarter about time.
+
+            🔹 Implementation & Case Study [~1.5 minutes]
+
+            This wasn’t just theory—we implemented it.
+
+            Using software modeling tools, specifically an open-source platform called Fujaba, we extended the environment to support our UML profile.
+            We added icons, stereotypes, and validation logic, then tested everything with a case study validation in the domain of air traffic control.
+
+            From the model, we generated both SQL queries and Java code, showing the framework works from design to deployment.
+
+            🔹 Why This Matters [~1 minute]
+
+            If you’re building time-sensitive applications, this kind of modeling is essential.
+            Real-time systems are no longer niche—they’re everywhere.
+            We need frameworks that bring timing, concurrency, and correctness into the early design phase, not after the fact.
+
+            🔹 Closing [~30 seconds]
+
+            If you're interested in modeling real-world systems where timing matters, check out my full paper on arXiv.
+            🔗 Link in the show notes: https://arxiv.org/abs/1001.1276
+
+            Thanks for listening, and stay tuned for more episodes on systems, modeling, and the future of software.</p>
 
 
 </article>
